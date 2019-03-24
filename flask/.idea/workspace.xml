@@ -3,33 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="12849b48-c401-4bf3-934c-d4b12bb6954a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/.postcssrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/build/build.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/build/check-versions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/build/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/build/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/build/vue-loader.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/build/webpack.base.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/build/webpack.dev.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/build/webpack.prod.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/config/dev.env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/config/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/config/prod.env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/config/test.env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/static/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/unit/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/unit/specs/HelloWorld.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/server/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/server/task.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/server/task.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/vue/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/vue/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/vue/src/router/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,11 +38,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/python/server/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+            <state relative-caret-position="-227">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/vue/src/router/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/vue/src/components/Task.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="769">
+              <caret line="127" column="43" selection-start-line="127" selection-start-column="43" selection-end-line="127" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/vue/src/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -76,6 +83,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -86,7 +94,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/python/server/query.py" />
+        <option value="$PROJECT_DIR$/src/main/vue/src/components/Tasks.vue" />
+        <option value="$PROJECT_DIR$/src/main/vue/src/router/index.js" />
         <option value="$PROJECT_DIR$/src/main/python/server/server.py" />
+        <option value="$PROJECT_DIR$/src/main/vue/src/components/Task.vue" />
       </list>
     </option>
   </component>
@@ -129,6 +140,32 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="vue" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="flask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -140,6 +177,7 @@
     <property name="editor.config.ad.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -196,17 +234,20 @@
       <workItem from="1553265201223" duration="88000" />
       <workItem from="1553266195042" duration="3838000" />
       <workItem from="1553275688393" duration="6419000" />
-      <workItem from="1553428695988" duration="1747000" />
+      <workItem from="1553428695988" duration="2375000" />
+      <workItem from="1553431299224" duration="4024000" />
+      <workItem from="1553449692743" duration="7999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12092000" />
+    <option name="totallyTimeSpent" value="24743000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23408966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -226,7 +267,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.32982844" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.12451577" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,31 +275,51 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/python/server/query.py" />
-    <entry file="file://$PROJECT_DIR$/src/main/vue/public/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/vue/public/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/main/vue/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/vue/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/vue/src/components/Tasks.vue" />
+    <entry file="file://$PROJECT_DIR$/src/main/vue/src/components/HelloWorld.vue" />
     <entry file="file://$PROJECT_DIR$/src/main/vue/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/vue/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/vue/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/python/server/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+        <state relative-caret-position="-227">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/vue/src/components/Task.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="127" column="43" selection-start-line="127" selection-start-column="43" selection-end-line="127" selection-end-column="43" />
         </state>
       </provider>
     </entry>

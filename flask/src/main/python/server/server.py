@@ -2,10 +2,12 @@ from flask import Flask, request, jsonify
 import sqlite3
 from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
+from flask_cors import CORS
 import json
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///task.db'
+CORS(app)
 db = SQLAlchemy(app)
 ma = Marshmallow(app)
 
