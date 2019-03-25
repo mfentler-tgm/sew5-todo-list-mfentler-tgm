@@ -96,6 +96,7 @@
         .catch((error) => {
         // eslint-disable-next-line
           console.error(error)
+          alert("Task name has to be unique")
         })
     },
     putUserPreparation(id, name, des){
@@ -106,6 +107,10 @@
     },
     putUser(){
       const path = 'http://localhost:5000/' + this.editform.id
+      if (this.editform.task_name == '' || this.editform.task_description == ''){
+        alert("Parameter is not allowed to be ' '")
+        return
+      }
       axios.put(path,{
         name: this.editform.task_name,
         description: this.editform.task_description
@@ -116,6 +121,7 @@
         })
         .catch((error) => {
           console.error(error)
+          alert("Task name has to be unique")
         })
 
     },

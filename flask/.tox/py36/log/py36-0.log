@@ -1,0 +1,9 @@
+actionid: py36
+msg: getenv
+cmdargs: '/home/mfentler/sew5-todo-list-mfentler-tgm/flask/venv/bin/python -m virtualenv --python /home/mfentler/sew5-todo-list-mfentler-tgm/flask/venv/bin/python py36'
+
+Already using interpreter /home/mfentler/sew5-todo-list-mfentler-tgm/flask/venv/bin/python
+Using base prefix '/usr'
+New python executable in /home/mfentler/sew5-todo-list-mfentler-tgm/flask/.tox/py36/bin/python
+Installing setuptools, pip, wheel...
+done.
