@@ -16,3 +16,4 @@ sqlalchemy
 tinydb
 validators
 Flask-BasicAuth
+coverage

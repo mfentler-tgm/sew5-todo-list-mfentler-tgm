@@ -63,7 +63,14 @@
   methods: {
     getUser() {
       const path = 'http://localhost:5000/'
-      axios.get(path)
+      axios({
+          method:'get',
+          url: path,
+          auth:{
+            username: 'admin',
+            password: '1234'
+          }
+        })
         .then((res) => {
           this.tasks = res.data
         })
@@ -74,7 +81,14 @@
     },
     deleteUser(id){
       const path = 'http://localhost:5000/' + id
-      axios.delete(path)
+      axios({
+          method:'delete',
+          url: path,
+          auth:{
+            username: 'admin',
+            password: '1234'
+          }
+        })
         .then((res) => {
           this.getUser()
         })
@@ -88,7 +102,18 @@
         console.error("Give all arguments")
         return
       }
-      axios.post(path, {name:this.task_name,description:this.task_description})
+      axios({
+          method:'post',
+          url: path,
+          auth:{
+            username: 'admin',
+            password: '1234'
+          },
+          data:{
+            name:this.task_name,
+            description:this.task_description
+          }
+        })
         .then((res) => {
           this.getUser()
           this.initFields()
@@ -111,10 +136,18 @@
         alert("Parameter is not allowed to be ' '")
         return
       }
-      axios.put(path,{
-        name: this.editform.task_name,
-        description: this.editform.task_description
-      })
+      axios({
+          method:'put',
+          url: path,
+          auth:{
+            username: 'admin',
+            password: '1234'
+          },
+          data:{
+            name: this.editform.task_name,
+            description: this.editform.task_description
+          }
+        })
         .then((res) => {
           this.getUser()
           this.initFields()
