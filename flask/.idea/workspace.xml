@@ -3,8 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="12849b48-c401-4bf3-934c-d4b12bb6954a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/python/server/task.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/server/task.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/vue/src/components/Task.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/vue/src/components/Task.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tox/dist/restful_userservice-0.0.1.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.tox/dist/restful_userservice-0.0.1.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tox/py36/.tox-config1" beforeDir="false" afterPath="$PROJECT_DIR$/.tox/py36/.tox-config1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tox/py36/lib/python3.6/site-packages/restful_userservice-0.0.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/.tox/py36/lib/python3.6/site-packages/restful_userservice-0.0.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tox/py36/lib/python3.6/site-packages/src/test/test_crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/.tox/py36/lib/python3.6/site-packages/src/test/test_crud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tox/py36/log/py36-1.log" beforeDir="false" afterPath="$PROJECT_DIR$/.tox/py36/log/py36-1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tox/py36/log/py36-3.log" beforeDir="false" afterPath="$PROJECT_DIR$/.tox/py36/log/py36-3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/server/task.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test_crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_crud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tox.ini" beforeDir="false" afterPath="$PROJECT_DIR$/tox.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +20,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/flask$Tox.coverage" NAME="Tox Coverage Results" MODIFIED="1553518734941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask$Tox.coverage" NAME="Tox Coverage Results" MODIFIED="1553535023677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask$query.coverage" NAME="query Coverage Results" MODIFIED="1553268406195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/python/server" />
+    <SUITE FILE_PATH="coverage/flask$server.coverage" NAME="server Coverage Results" MODIFIED="1553521319425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/python/server" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -40,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/python/server/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="480">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -68,28 +76,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tox.ini">
+        <entry file="file://$PROJECT_DIR$/src/test/test_crud.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="480">
+              <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+              <folding>
+                <element signature="e#1#12#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/setup.py">
+        <entry file="file://$PROJECT_DIR$/tox.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+            <state relative-caret-position="210">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/test_crud.py">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="240">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -124,9 +135,10 @@
         <option value="$PROJECT_DIR$/src/main/vue/src/router/index.js" />
         <option value="$PROJECT_DIR$/src/main/python/server/server.py" />
         <option value="$PROJECT_DIR$/src/main/vue/src/components/Task.vue" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/src/test/test_crud.py" />
         <option value="$PROJECT_DIR$/tox.ini" />
-        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
@@ -161,6 +173,21 @@
               <item name="flask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flask" type="b2602c69:ProjectViewProjectNode" />
@@ -217,6 +244,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/server" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/server/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Tox" type="Tox" factoryName="Tox" temporary="true">
       <module name="flask" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,6 +281,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Tox.Tox" />
+        <item itemvalue="Python.server" />
         <item itemvalue="Python.query" />
       </list>
     </recent_temporary>
@@ -252,34 +302,54 @@
       <workItem from="1553428695988" duration="2375000" />
       <workItem from="1553431299224" duration="4024000" />
       <workItem from="1553449692743" duration="8077000" />
-      <workItem from="1553511696060" duration="1480000" />
+      <workItem from="1553511696060" duration="8804000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tox - 2019.03.25 at 05h 50m 25s.xml">
+    <history-entry file="Tox - 2019.03.25 at 07h 46m 25s.xml">
       <configuration name="Tox" configurationId="Tox" />
     </history-entry>
-    <history-entry file="Tox - 2019.03.25 at 05h 50m 49s.xml">
+    <history-entry file="Tox - 2019.03.25 at 07h 53m 23s.xml">
       <configuration name="Tox" configurationId="Tox" />
     </history-entry>
-    <history-entry file="Tox - 2019.03.25 at 05h 53m 11s.xml">
+    <history-entry file="Tox - 2019.03.25 at 07h 53m 59s.xml">
+      <configuration name="Tox" configurationId="Tox" />
+    </history-entry>
+    <history-entry file="Tox - 2019.03.25 at 07h 54m 59s.xml">
+      <configuration name="Tox" configurationId="Tox" />
+    </history-entry>
+    <history-entry file="Tox - 2019.03.25 at 07h 55m 45s.xml">
+      <configuration name="Tox" configurationId="Tox" />
+    </history-entry>
+    <history-entry file="Tox - 2019.03.25 at 07h 58m 38s.xml">
+      <configuration name="Tox" configurationId="Tox" />
+    </history-entry>
+    <history-entry file="Tox - 2019.03.25 at 10h 18m 35s.xml">
+      <configuration name="Tox" configurationId="Tox" />
+    </history-entry>
+    <history-entry file="Tox - 2019.03.25 at 10h 19m 50s.xml">
+      <configuration name="Tox" configurationId="Tox" />
+    </history-entry>
+    <history-entry file="Tox - 2019.03.25 at 10h 26m 27s.xml">
+      <configuration name="Tox" configurationId="Tox" />
+    </history-entry>
+    <history-entry file="Tox - 2019.03.25 at 10h 29m 22s.xml">
       <configuration name="Tox" configurationId="Tox" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26301000" />
+    <option name="totallyTimeSpent" value="33625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23685667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23685667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -319,13 +389,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/python/server/server.py">
+    <entry file="file://$PROJECT_DIR$/src/main/vue/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -336,17 +410,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/vue/src/App.vue">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        <state relative-caret-position="240">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test_crud.py">
+    <entry file="file://$PROJECT_DIR$/src/main/vue/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="300">
+            <caret line="20" column="110" lean-forward="true" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="110" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.tox/log/tox-0.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="-365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/server/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -357,17 +449,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tox.ini">
+    <entry file="file://$PROJECT_DIR$/.coverage">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testreport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test_crud.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="480">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+          <folding>
+            <element signature="e#1#12#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
+    <entry file="file://$PROJECT_DIR$/tox.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        <state relative-caret-position="210">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
         </state>
       </provider>
     </entry>
