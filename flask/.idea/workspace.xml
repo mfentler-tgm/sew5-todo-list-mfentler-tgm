@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12849b48-c401-4bf3-934c-d4b12bb6954a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.tox/dist/restful_userservice-0.0.1.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.tox/dist/restful_userservice-0.0.1.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tox/py36/.tox-config1" beforeDir="false" afterPath="$PROJECT_DIR$/.tox/py36/.tox-config1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tox/py36/lib/python3.6/site-packages/restful_userservice-0.0.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/.tox/py36/lib/python3.6/site-packages/restful_userservice-0.0.1.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tox/py36/lib/python3.6/site-packages/src/test/test_crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/.tox/py36/lib/python3.6/site-packages/src/test/test_crud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tox/py36/log/py36-1.log" beforeDir="false" afterPath="$PROJECT_DIR$/.tox/py36/log/py36-1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tox/py36/log/py36-3.log" beforeDir="false" afterPath="$PROJECT_DIR$/.tox/py36/log/py36-3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/python/server/task.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test_crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_crud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/server/task.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/server/task.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tox.ini" beforeDir="false" afterPath="$PROJECT_DIR$/tox.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/flask$Tox.coverage" NAME="Tox Coverage Results" MODIFIED="1553535023677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask$Tox.coverage" NAME="Tox Coverage Results" MODIFIED="1553535348752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask$query.coverage" NAME="query Coverage Results" MODIFIED="1553268406195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/python/server" />
     <SUITE FILE_PATH="coverage/flask$server.coverage" NAME="server Coverage Results" MODIFIED="1553521319425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/python/server" />
   </component>
@@ -91,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/tox.ini">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+              <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -302,17 +295,11 @@
       <workItem from="1553428695988" duration="2375000" />
       <workItem from="1553431299224" duration="4024000" />
       <workItem from="1553449692743" duration="8077000" />
-      <workItem from="1553511696060" duration="8804000" />
+      <workItem from="1553511696060" duration="9100000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tox - 2019.03.25 at 07h 46m 25s.xml">
-      <configuration name="Tox" configurationId="Tox" />
-    </history-entry>
-    <history-entry file="Tox - 2019.03.25 at 07h 53m 23s.xml">
-      <configuration name="Tox" configurationId="Tox" />
-    </history-entry>
     <history-entry file="Tox - 2019.03.25 at 07h 53m 59s.xml">
       <configuration name="Tox" configurationId="Tox" />
     </history-entry>
@@ -337,12 +324,19 @@
     <history-entry file="Tox - 2019.03.25 at 10h 29m 22s.xml">
       <configuration name="Tox" configurationId="Tox" />
     </history-entry>
+    <history-entry file="Tox - 2019.03.25 at 10h 31m 37s.xml">
+      <configuration name="Tox" configurationId="Tox" />
+    </history-entry>
+    <history-entry file="Tox - 2019.03.25 at 10h 36m 11s.xml">
+      <configuration name="Tox" configurationId="Tox" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33625000" />
+    <option name="totallyTimeSpent" value="33921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23685667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -468,7 +462,7 @@
     <entry file="file://$PROJECT_DIR$/tox.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
         </state>
       </provider>
     </entry>
